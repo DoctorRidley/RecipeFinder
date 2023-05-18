@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*DELETE THIS*/
+}
+
 .side-nav {
     background-color: var(--dark-mode-fg-2);
     border: 3px solid darkcyan;
