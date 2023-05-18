@@ -12,6 +12,8 @@
     margin-top: 20%;
     margin-bottom: 15%;
     padding: 20px;
+    background-color: var(--dark-mode-fg-2);
+    border-radius: 12px;
 }
 
 input {
@@ -19,6 +21,8 @@ input {
     padding: 5px;
     width: 100%;
     margin-bottom: 8px;
+    background-color: var(--dark-mode-fg-1);
+    color: var(--dark-mode-text-1);
 }
 
 label {
@@ -35,8 +39,15 @@ button.login {
     font-weight: bold;
     display: block;
     margin-top: 8px;
+    background-color: #236272;
+    color: inherit;
+    cursor: pointer;
 }
 
 form {
     padding: 4px;
+    background-color: var(--dark-mode-bg);
+    border: 1px solid darkcyan;
+    border-radius: 8px;
+    color: var(--dark-mode-text-1);
 }

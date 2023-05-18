@@ -13,26 +13,3 @@
 body {
     background-color: var(--dark-mode-bg);
 }
-
-#login-container {
-    background-color: var(--dark-mode-fg-2);
-    border-radius: 12px;
-}
-
-form {
-    background-color: var(--dark-mode-bg);
-    border: 1px solid darkcyan;
-    border-radius: 8px;
-    color: var(--dark-mode-text-1);
-}
-
-button.login {
-    background-color: #236272;
-    color: inherit;
-    cursor: pointer;
-}
-
-input {
-    background-color: var(--dark-mode-fg-1);
-    color: var(--dark-mode-text-1);
-}
