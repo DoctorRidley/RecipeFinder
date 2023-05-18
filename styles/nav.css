@@ -8,28 +8,25 @@
 .side-nav {
     background-color: var(--dark-mode-fg-2);
     border: 3px solid darkcyan;
-    width: 25%;
-    max-width: 300px;
+    width: 200px;
     position: fixed;
 }
 
-.side-nav ul li {
+.side-nav li {
     list-style: none;
     padding: 10px;
     border-top: 1px solid grey;
 }
 
-.side-nav ul li:first-child {
-    margin-top: 5px;
+.side-nav li:first-child {
     border-top: none;
-    padding-top: 0;
 }
 
-.side-nav ul li a {
+.side-nav a {
     text-decoration: none;
     font-size: 16px;
 }
 
-.side-nav ul li a:focus {
+.side-nav a:focus {
     color: red;
 }
