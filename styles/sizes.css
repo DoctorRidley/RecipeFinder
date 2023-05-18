@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*DELETE THIS*/
+}
+
+#login-container {
+    height: 50vh;
+    width: 40vw;
+    margin: auto;
+    margin-top: 20%;
+    margin-bottom: 15%;
+    padding: 20px;
+}
+
+input {
+    border-radius: 25px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 0px;
+    font-size: 16px;
+}
+
+button.login {
+    width: 100%;
+    padding: 6px;
+    font-weight: bold;
+    display: block;
+    margin-top: 8px;
+}
+
+form {
+    padding: 4px;
+}

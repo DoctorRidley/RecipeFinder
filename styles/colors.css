@@ -1,0 +1,38 @@
+:root {
+    --dark-mode-bg: #0e131a;
+    --dark-mode-fg-1: #0c121b;
+    --dark-mode-fg-2: #0a182e;
+    --dark-mode-text-1: #ffe6dc;
+}
+
+* {
+    /* Find a better way */
+    color: var(--dark-mode-text-1);
+}
+
+body {
+    background-color: var(--dark-mode-bg);
+}
+
+#login-container {
+    background-color: var(--dark-mode-fg-2);
+    border-radius: 12px;
+}
+
+form {
+    background-color: var(--dark-mode-bg);
+    border: 1px solid darkcyan;
+    border-radius: 8px;
+    color: var(--dark-mode-text-1);
+}
+
+button.login {
+    background-color: #236272;
+    color: inherit;
+    cursor: pointer;
+}
+
+input {
+    background-color: var(--dark-mode-fg-1);
+    color: var(--dark-mode-text-1);
+}
