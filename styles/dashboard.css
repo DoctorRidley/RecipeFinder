@@ -1,0 +1,13 @@
+#dashboard {
+    margin-left: 230px;
+}
+
+/*TODO: Create some default view*/
+
+.main-view {
+    display: none;
+}
+
+.main-view:target {
+    display: block;
+}

@@ -6,48 +6,43 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href="./styles/colors.css">
     <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="./styles/dashboard.css">
   </head>
 
   <body>
 
-    <header>
+    <nav class="side-nav">
+      <ul>
+        <li><a href="#my-recipes">My Recipes</a></li>
+        <li><a href="#search">Advanced Search</a></li>
+        <li><a href="#recipe-rec">Recipe Recommendations</a></li>
+        <li><a href="#shopping">My Shopping List</a></li>
+        <li><a href="#community">Community</a></li>
+      </ul>
+    </nav>
 
-    </header>
+    <main id="dashboard">
 
-    <main>
-        <nav class="side-nav">
-            <ul>
-                <li><a href="#my-recipes">My Recipes</a></li>
-                <li><a href="#search">Advanced Search</a></li>
-                <li><a href="#recipe-rec">Recipe Recommendations</a></li>
-                <li><a href="#shopping">My Shopping List</a></li>
-                <li><a href="#community">Community</a></li>
-            </ul>
-        </nav>
-
-        <div id="my-recipes"></div>
-        <div id="search"></div>
-        <div id="recipe-rec"></div>
-        <div id="shopping"></div>
-        <div id="community"></div>
-        <!--
-            |       |               |
-            |       |               |
-            |  NAV  |     STUFF     |
-            |       |               |
-            |       |               |
-
-
-
-
-            - Advanced Search: Users can search for recipes based on specific ingredients, dietary restrictions, cooking time, cuisine, and more. (search bar)
-            - Recipe Recommendations: The application suggests personalized recipe recommendations based on user preferences and browsing history.
-            - Detailed Recipe Information: Each recipe includes detailed instructions, ingredients list, nutritional information, and user ratings. 
-            - Recipe Collections: Users can create and manage their own recipe collections, organize recipes into categories, and share them with others. 
-            - User Interaction: Users can rate and review recipes, comment on other users' reviews, and engage in discussions related to specific recipes. 
-            - Shopping List: The application allows users to create a shopping list based on selected recipes, making it easier to plan and prepare meals. 
-            - Social Sharing: Users can share recipes they like on social media platforms and invite friends to join the Recipe Finder community.
-        -->
+      <section class="main-view" id="my-recipes">
+        <h1>My Recipes</h1>
+        <p>Here is a section for recipes a user has saved.</p>
+      </section>
+      <section class="main-view" id="search">
+        <h1>Search for New Recipes</h1>
+        <p>Here is a section for a user to search for more recipes</p>
+      </section>
+      <section class="main-view" id="recipe-rec">
+        <h1>More Recipes</h1>
+        <p>Here is a section for recipes a user may be interested in.</p>
+      </section>
+      <section class="main-view" id="shopping">
+        <h1>Shopping</h1>
+        <p>Here is a section for a user to create and save shopping lists.</p>
+      </section>
+      <section class="main-view" id="community">
+        <h1>Community</h1>
+        <p>Here is a section for users to interact with other users' recipes.</p>
+      </section>
     </main>
 
     <footer>
