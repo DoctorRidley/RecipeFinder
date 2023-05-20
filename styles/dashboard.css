@@ -11,3 +11,31 @@
 .main-view:target {
     display: block;
 }
+
+.collection {
+    margin: 30px 0;
+}
+
+.flex-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    border: 1px solid darkred;
+    /*TODO: reduce element size to wrap only around flex items*/
+    padding: 5px;
+}
+
+.recipe {
+    cursor: pointer;
+    margin: 25px 0;
+    height: 250px;
+    width: 250px;
+    padding: 10px 10px 50px 10px;
+    border: 1px solid grey;
+}
+
+.temp-image {
+    background-color: green;
+    height: 100%;
+    width: 100%;
+}
