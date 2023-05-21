@@ -2,19 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*DELETE THIS*/
 }
 
 .side-nav {
     background-color: var(--dark-mode-fg-2);
     border: 3px solid darkcyan;
-    width: 200px;
+    min-width: 100px;
+    width: 15vw;
+    max-width: 200px;
     position: fixed;
 }
 
 .side-nav li {
     list-style: none;
-    padding: 10px;
+    padding: 5%;
     border-top: 1px solid grey;
 }
 
@@ -24,7 +25,6 @@
 
 .side-nav a {
     text-decoration: none;
-    font-size: 16px;
 }
 
 .side-nav a:focus {

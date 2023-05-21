@@ -2,15 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*DELETE THIS*/
 }
 
 #login-container {
     height: 50vh;
-    width: 40vw;
-    margin: auto;
-    margin-top: 20%;
-    margin-bottom: 15%;
+    max-height: 350px;
+    width: 30vw;
+    max-width: 400px;
+    margin: 20% auto 10% auto;
     padding: 20px;
     background-color: var(--dark-mode-fg-2);
     border-radius: 12px;
