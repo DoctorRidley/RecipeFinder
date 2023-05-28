@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+.header-nav {
+    background-color: var(--dark-mode-fg-1);
+    padding: 5px;
+    padding-right: 20px;
+    border: 1px solid red;
+    height: 30px;
+}
+
+.header-nav ul {
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+}
+
 .side-nav {
     background-color: var(--dark-mode-fg-2);
     border: 3px solid darkcyan;
@@ -13,8 +27,11 @@
     position: fixed;
 }
 
-.side-nav li {
+nav li {
     list-style: none;
+}
+
+.side-nav li {
     padding: 5%;
     border-top: 1px solid grey;
 }
@@ -23,7 +40,7 @@
     border-top: none;
 }
 
-.side-nav a {
+nav a {
     text-decoration: none;
 }
 
