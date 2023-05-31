@@ -6,6 +6,8 @@
     <title>John Doe</title>
     <link rel="stylesheet" href="./styles/colors.css">
     <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="./styles/rating.css">
+    <link rel="stylesheet" href="./styles/recipe.css">
   </head>
 
   <body>
@@ -21,13 +23,35 @@
       <div class="temp-image"></div>
       <h1 id="username">John Doe</h1>
       <h2 id="subtitle">Sous Chef</h2>
-      <div class="rating">
-        <p>Average rating: 4.0</p>
-        <img src="./images/star.svg" alt="star-1">
-        <img src="./images/star.svg" alt="star-2">
-        <img src="./images/star.svg" alt="star-3">
-        <img src="./images/star.svg" alt="star-4">
-        <img src="./images/star.svg" alt="star-5">
+      <div class="chef-rating">
+        <p>Average rating: 5.0</p>
+        <img src="./images/rating.svg" alt="rating" aria-hidden="true">
+      </div>
+
+      <div class="collection">
+        <h2>Favorite Recipes</h2>
+        <div class="flex-container">
+          
+          <div class="recipe">
+            <h3>Pancakes</h3>
+            <h4>John Doe</h4>
+            <div class="temp-image green"></div>
+            <div class="recipe-rating">
+              <span aria-label="5.0">Rating:</span>
+              <img src="./images/rating.svg" alt="rating" aria-hidden="true">
+            </div>
+          </div>
+          <div class="recipe">
+            <h3>Eggs</h3>
+            <h4>Jane Doe</h4>
+            <div class="temp-image blue"></div>
+          </div>
+          <div class="recipe">
+            <h3>Risotto</h3>
+            <h4>Jane Doe</h4>
+            <div class="temp-image red"></div>
+          </div>
+        </div>
       </div>
     </main>
 

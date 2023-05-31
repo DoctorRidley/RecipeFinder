@@ -1,0 +1,13 @@
+.chef-rating img {
+    height: 40px;
+    width: 300px;
+}
+
+.recipe-rating img {
+    height: 15px;
+    width: 100px;
+}
+
+.recipe-rating {
+    padding-top: 5px;
+}
