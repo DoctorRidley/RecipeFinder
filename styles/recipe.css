@@ -1,0 +1,30 @@
+.collection {
+    margin: 30px 0;
+}
+
+.flex-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 40px; /*3vw*/
+    border: 1px solid darkred;
+    padding: 5px;
+}
+
+.recipe {
+    cursor: pointer;
+    margin: 25px 0;
+    min-height: 200px;
+    height: 40vh;
+    max-height: 250px;
+    min-width: 200px;
+    width: 20vw;
+    max-width: 250px;
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.temp-image {
+    background-color: green;
+    height: 70%;
+    width: 100%;
+}
